@@ -1,0 +1,107 @@
+
+
+<html>
+    <head>
+ <link rel="stylesheet" href="CSS mio.css">
+    </head>
+
+    <body>
+        <div class="mainpage">
+        <header class="header">
+           <h1 class="titulo"> Bienvenidos al formulario de Mili uwu </h1> 
+           <p class="texto1"> Contame algo positivo que te pasó el dia de hoy  ♥  </p>
+        </header>
+      <div class="cuadradito">
+
+    <form> 
+         <div class="grupo-formulario">
+        <label for="nombre" id="nombre-label"> Nombre </label>
+        <input 
+        type="text" 
+        id="texto"
+        class="control-form"
+        name="nombre"
+        placeholder="Introducí tu nombre"
+        required
+        /> 
+    </div>
+       
+
+        <div class="grupo-formulario">
+          <label for="email" id="email-label">Email <span class="opcional">(opcional)</span></label> 
+          <input
+            type="email"
+            id="email"
+            class="control-form"
+            name="email"
+            placeholder="Introducí tu Email"
+          />
+        </div>
+
+          <div class="grupo-formulario">
+            <label for="number" id="numero-label"> En una escala del 1 al 10, ¿qué tan bueno fue? </label>  
+            <input 
+            type="number"
+            id="numero"
+            class="control-form"
+            name="escala"
+            min="1" max="10"
+            placeholder="Introducí un numero del 1 al 10"   
+            required                           
+            />
+    
+        </div>
+
+         <div class="grupo-formulario">
+          <label for="texto" id="donde-label"> ¿Dónde pasó? </label>  
+            <select id="dropdown" name="role" class="control-form" required>
+              <option disabled selected value>Seleccionar lugar</option>
+              <option value="Casa">En casa</option>
+              <option value="Trabajo">En el trabajo</option>
+              <option value="Calle">En la calle</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div> 
+
+         <div class="grupo-formulario">
+        <label for="text" id="emocion-label" >¿Cómo te hizo sentir?</label>
+        <br />
+        <br />
+         <input type="checkbox" name="color" class="user-selection" value="1" />Emocionadx<br />
+          <input type="checkbox" name="color" class="user-selection" value="2" />Feliz<br />
+          <input type="checkbox" name="color" class="user-selection" value="3" />Triste<br />
+          <input type="checkbox" name="color" class="user-selection" value="4" />Amadx<br />
+    
+        </div>
+        <br />
+        <br />
+
+        <div class="grupo-formulario">
+          <label for="text" id="experiencia-label" > Por favor describí tu experiencia positiva</label>
+
+          <textarea name="message" class="mensaje" placeholder="Introducí tu experiencia aquí..." required>  </textarea>
+
+
+        </div>
+
+        <input type="submit" value="Enviar" class="submit" />
+
+         </div>
+        
+        </div>
+
+      </form>
+    
+    </div>
+
+    <div id="footer"> Gracias por ingresar en la pagina.  © 2021 All rights reserved.
+    </div>
+   
+        
+    </body>
+    
+
+
+</html>
+
+
